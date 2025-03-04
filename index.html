@@ -5,17 +5,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Penguin Fashion</title>
-  <link rel="stylesheet" href="./styles.css">
   <link rel="shortcut icon" href="./images/shopping-cart.png" type="image/x-icon">
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            "bebas-neue": ["Bebas Neue", "sans-serif"],
+            roboto: ["Roboto", "serif"],
+          },
+        }
+      }
+    }
+  </script>
 </head>
 
 <body>
   <header class="bg-[#fffbf0]">
     <div class="py-1 lg:py-2">
       <!------------------------------ Navbar ------------------------------>
-      <nav class="navbar pl-4 pr-2 sm:pl-6 sm:pr-4 lg:px-10 xl:px-14 2xl:px-20 container mx-auto justify-between">
+      <nav class="navbar p-0 pl-4 pr-2 sm:pl-6 sm:pr-4 lg:px-10 xl:px-14 2xl:px-20 container mx-auto justify-between">
         <div>
           <a class="btn btn-ghost text-xl px-0"><img src="./images/logo.png" loading="lazy" alt="Penguin Fashion"
               class="w-60 md:w-64"></a>

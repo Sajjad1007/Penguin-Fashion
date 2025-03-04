@@ -9,9 +9,8 @@ Welcome to **Penguin Fashion**, a modern and fully responsive landing page desig
 ## Technologies Used
 
 1. **HTML5:** Markup language for structuring the website with clean and semantic coding.
-2. **CSS3:** Stylesheet for custom styling, animations and layout design.
-3. **Tailwind CSS:** Utility-first CSS framework for fast and responsive styling.
-4. **DaisyUI:** Tailwind-based component library for pre-styled UI elements.
+2. **Tailwind CSS:** Utility-first CSS framework for fast and responsive styling.
+3. **DaisyUI:** Tailwind-based component library for pre-styled UI elements.
 
 ## How To Use
 
